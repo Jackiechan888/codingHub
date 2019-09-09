@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="players" class="players">
+        
+    </div>
+
+	<div class="truthDareBox" id="truthDareBox"> 
+        <h3>Player <span id="playerNumber"></span></h3>
+		<p id="truthOrDare">This is your truth/dare</p>
+		<button class="btnDid" onclick="did()">I did it!</button>
+		<button class="btnDidnt" onclick="didnt()">I didn't do it.</button>
+	</div>
+
+    <div class="prntKing">
+        <div class="king truth" onclick="getTruth()">
+            <h2>TRUTH</h2>
+        </div>
+        <div class="king dare" onclick="getDare()">
+            <h2>DARE</h2>s
+        </div>
+    </div>
+    <!-- DO NOT DELETE -->
+    <script src="js/start.js"></script>
+</body>
+
+</html>
