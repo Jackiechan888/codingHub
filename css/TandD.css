@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+
+
+/*Main screen*/
+.prntKing {
+    display:flex;
+    justify-content: center;
+}
+
+.king {
+    flex-grow: 1;
+    background-color: gray;
+    border:5px black solid;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    transition-duration: 0.7s;
+    cursor:pointer;
+}
+
+.king:hover {
+    width:90%;
+}
+
+.king.truth {
+    background-color: #4949ae;
+}
+
+.king.dare {
+    background-color: #a63232;
+}
+
+.king h2 {
+    font-family: sans-serif;
+    font-size:65px;
+    letter-spacing: 3px;
+}
+
+/*Box*/
+
+.truthDareBox {
+    position: absolute;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border: gray 5px solid;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0 0 100px 18px black;
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+    display: none;
+}
+
+.truthDareBox p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.btnDid {
+    border:#4949ae 3px solid;
+    border-radius: 10px;
+    padding:5px 10px;
+    margin:10px;
+    transition-duration:0.4s;
+    background-color:#4949ae;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnDid:hover {
+    transform: scale(1.05);
+}
+.btnDidnt {
+     border:#a63232 3px solid;
+     border-radius: 10px;
+     padding:5px 10px;
+     margin:10px;
+     transition-duration:0.4s;
+     background-color:#a63232;
+     font-family: sans-serif;
+     font-size: 15px;
+     color:white;
+     font-weight: bold;
+    cursor: pointer;
+}
+
+.btnDidnt:hover {
+    transform: scale(1.05);
+}
+
+/*PLAYERS*/
+
+.players {
+    position: absolute;
+    border:black 5px solid;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    color:white;
+    font-family:sans-serif;
+    font-size: 14px;
+    padding: 10px 15px;
+}
