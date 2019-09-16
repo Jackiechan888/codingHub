@@ -1,0 +1,42 @@
+body {
+    background-image:url(http://www.gainesvilleconnect.com/images/footer-patterns/footer-pattern-03.png);
+    background-color: navy;
+}
+
+.title {
+    text-align: center;
+    font-family: Comic Sans MS;
+    color: #ee777e;
+    font-size: 23px;
+ }
+
+.form {
+    display: inline-block;
+    padding: 30px 20px;
+    margin: 10px;
+    max-width: 300px;
+    border: 3px #fff solid;
+    border-radius: 3px;
+    background: #f0787d;
+    background: -moz-linear-gradient(top, #f0787d 0%, #c66497 50%, #7640b1 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f0787d 0%, #c66497 50%, #7640b1 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f0787d 0%, #c66497 50%, #7640b1 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0787d', endColorstr='#7640b1', GradientType=0);
+    /* IE6-9 */
+
+    color: #fff;
+
+
+
+
+}
+
+.form input {
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px;
+
+}
