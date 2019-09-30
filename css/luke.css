@@ -11,9 +11,9 @@ body {
  }
 
 .form {
-    display: inline-block;
+    display: block;
     padding: 30px 20px;
-    margin: 10px;
+    margin: 20px auto;
     max-width: 300px;
     border: 3px #fff solid;
     border-radius: 3px;
@@ -31,7 +31,6 @@ body {
 
 
 
-
 }
 
 .form input {
@@ -39,4 +38,8 @@ body {
     padding: 4px;
     margin: 5px;
 
-}`
+}
+
+.carousel-item {
+    height:90vh;
+}
