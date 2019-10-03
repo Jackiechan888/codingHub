@@ -2,10 +2,12 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/TandD.css">
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>WOFBING</title>
+    <link rel="stylesheet" type="text/css" href="css/woufbing.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
@@ -21,32 +23,26 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="truthdare.html">Truth or dare</a>
                 <a class="dropdown-item" href="ben.html">Tree transform</a>
-                <a class="dropdown-item" href="#">Freever</a>
+                <a class="dropdown-item" href="luke.html">Freever</a>
                 <a class="dropdown-item" href="woufbing.html">Woufbing</a>
             </div>
         </div>
     </div>
-    <div id="players" class="players">
+    <h1>WOFBING</h1>
+    <div class="wheelHolder">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/f1/Down_Arrow_Icon.png" alt="arrow" class="arrow">
+        <img id="wheel" src="https://steamuserimages-a.akamaihd.net/ugc/159152946376900160/8BC6870A76265B52B8930DDC1249A1571A4A0B8D/" onclick="spinWheel()">
     </div>
-    <div class="truthDareBox" id="truthDareBox">
-        <h3>Player <span id="playerNumber"></span></h3>
-        <p id="truthOrDare">This is your truth/dare</p>
-        <button class="btnDid" onclick="did()">I did it!</button>
-        <button class="btnDidnt" onclick="didnt()">I didn't do it.</button>
+    <div id="screen"></div>
+    <div id="alertBox">
+        <h3>WUFBING</h3>
+        <p id="bread"></p>
+        <button id="closeBtn" onclick="closeBtn()">CONTINUE?</button>
     </div>
-    <div class="prntKing">
-        <div class="king truth" onclick="getTruth()">
-            <h2>TRUTH</h2>
-        </div>
-        <div class="king dare" onclick="getDare()">
-            <h2>DARE</h2>s
-        </div>
-    </div>
-    <!-- DO NOT DELETE -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/truthdare.js"></script>
+    <script type="text/javascript" src="js/woufbing.js"></script>
 </body>
 
 </html>
