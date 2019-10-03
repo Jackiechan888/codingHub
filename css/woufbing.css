@@ -1,0 +1,88 @@
+body {
+    min-height: 80vh;
+    background: #D25858;
+    background: -webkit-radial-gradient(center, #D25858, #C12624);
+    background: -moz-radial-gradient(center, #D25858, #C12624);
+    background: radial-gradient(ellipse at center, #D25858, #C12624);
+    margin: 0;
+}
+
+h1 {
+    background-color: white;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 0 0 5px 5px;
+    border-bottom: 5px #68c70c solid;
+    color: #585858;
+    font-family: fantasy;
+}
+
+.wheelHolder{
+	position: relative;
+	height: 400px;
+	width: 400px;
+	margin: 100px auto;
+}
+
+.arrow {
+    width: 80px;
+    position: absolute;
+    top: -56px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+#wheel {
+	transition-duration: 1s;
+	width: 100%;
+
+}
+
+#alertBox {
+    width: 400px;
+    background-color: white;
+    color: #585858; 
+    position: absolute;
+    top: 29vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 120;
+    padding: 5px 20px 0px;
+    text-align: center;
+   display: none;
+
+}
+
+#alertBox h3 {
+    margin:5px 0px;
+ 
+}
+#alertBox p {  
+
+    margin-bottom: 30px;
+}
+
+#closeBtn {
+    display: block;
+    padding:10px 0; 
+    color: white;
+    width: inherit;
+    margin-bottom: 5px; 
+    background-color: green;
+}
+#screen {
+    background-color: rgba(0,0,0,0.7); 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 110;
+    display: none;
+
+
+}
