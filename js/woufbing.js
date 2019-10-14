@@ -64,13 +64,13 @@ const getPrize = (a) => {
 const saggy = (sapy) => {
 	// CHANGE THESE WORDS
 	if (sapy == "sad"){
-		var words = ["bread","cupcake","TERRRRRRy","cat","people","pinapple","luke","guitar","spellingmistake","circle","nettle","triangular","carcinoma","genes","sensitive","navigational"];
+		var words = ["bread","cupcake","terry","cat","people","pinapple","luke","guitar","spellingmistake","circle","nettle","triangular","carcinoma","genes","sensitive","navigational"];
 	}else if (sapy == "happy"){
-		var words = ["drainage","eletated","lousy","hook","people","dumb","gubernatorial","breathing","redundant","melon"];
+		var words = ["drainage","eletated","lousy","hook","people","dumb","gubernatorial","breathing","redundant","melon","gospel","Boarding","co-chair","gesture","milieu","mina"];
 	}else if (sapy == "angry") {
-		var words = ["bread","cupcake","TERRRRRRy","cat","people","pinapple","luke","guitar","spellingmistake"];
+		var words = ["rod","body","sin","Advertisment","whisker","call","screwdriver","wagon","rylee","destroyer","classmate","namesake","dashboard","revival","closet","seedling"];
 	} else {
-		var words = ["bread","cupcake","TERRRRRRy","cat","people","pinapple","luke","guitar","spellingmistake"];
+		var words = ["bread","cupcake","TERRRRRRy","cat","people","pinapple","luke","guitar","spellingmistake","circle","nettle","triangular","carcinoma","genes","sensitive","navigational","drainage","eletated","lousy","hook","people","dumb","gubernatorial","breathing","redundant","melon","gospel","Boarding","co-chair","gesture","milieu","mina","rod","body","sin","Advertisment","whisker","call","screwdriver","wagon","rylee","destroyer","classmate","namesake","dashboard","revival","closet","seedling"];
 	}
 
 	var slad = Math.floor(Math.random() * words.length);
@@ -84,7 +84,7 @@ const saggy = (sapy) => {
 	}else if (sapy == "happy"){
 		bread.innerHTML = "i feel like dancing in the " + slad + " i could just  " + svad + " right now!";
 	}else if (sapy == "angry") {
-		bread.innerHTML = "go die in a " + slad + " you little " + svad +"!";
+		bread.innerHTML = "go die in a " + slad + " you " + svad +"!";
 	} else {
 		bread.innerHTML = slad + "! You're the best, though i want you to jump off a cliff and " + svad + "! You dirtly little " + slad;
 	}

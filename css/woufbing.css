@@ -70,7 +70,7 @@ h1 {
     display: block;
     padding:10px 0; 
     color: white;
-    width: inherit;
+    width: -webkit-fill-available;
     margin-bottom: 5px; 
     background-color: green;
 }
